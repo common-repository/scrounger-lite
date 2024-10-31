@@ -1,0 +1,38 @@
+.scrounger_main {
+	display: table;
+	width: calc(100% - 50px);
+	margin: 50px auto 0 auto;
+}
+
+.scounger_main__left {
+	display: table-cell;
+	width: calc(100% - 550px);
+	clear: both;
+	box-sizing: padding-box;
+	padding-right: 30px;
+}
+
+.scounger_main__left label {
+	font-weight: bold;
+}
+
+.scounger_main__right {
+	display: table-cell;
+	width: 450px;
+}
+
+.scrounger_comment {
+	font-style: italic;
+	font-size: 0.8em;
+	color: #676767;
+}
+
+.scrounger_error {
+	font-style: italic;
+	font-size: 0.8em;
+	color: red;
+}
+
+.scrounger_block_size {
+	width: 50px;
+}

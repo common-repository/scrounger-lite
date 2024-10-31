@@ -1,0 +1,318 @@
+# Copyright (C) 2017 Scrounger Lite
+# This file is distributed under the same license as the Scrounger Lite package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Scrounger Lite 0.9.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/scrounger-lite\n"
+"POT-Creation-Date: 2017-03-06 16:02:34+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: inc/functions/scrounger_add_settings_page.php:8
+#: inc/tmpl/settings-form.php:8
+msgid "Настройки попрошайки"
+msgstr ""
+
+#: inc/functions/scrounger_add_settings_page.php:8
+msgid "Попрошайка"
+msgstr ""
+
+#: inc/functions/scrounger_add_settings_page.php:9
+msgid "Настройки показа"
+msgstr ""
+
+#: inc/functions/scrounger_add_settings_page.php:11
+msgid "Платежи"
+msgstr ""
+
+#: inc/functions/scrounger_add_settings_page.php:11
+#: inc/tmpl/payments-list.php:8
+msgid "Принятые платежи"
+msgstr ""
+
+#: inc/functions/scrounger_get_form.php:15 inc/tmpl/settings-form.php:224
+#: inc/tmpl/settings-views.php:221
+msgid "Плагин «попрошайка»"
+msgstr ""
+
+#: inc/tmpl/payments-list.php:22 inc/tmpl/settings-form.php:90
+#: inc/tmpl/settings-views.php:105
+msgid "Настройки сохранены."
+msgstr ""
+
+#: inc/tmpl/payments-list.php:27 inc/tmpl/settings-form.php:95
+#: inc/tmpl/settings-views.php:110
+msgid "Скрыть это уведомление."
+msgstr ""
+
+#: inc/tmpl/settings-form.php:34
+msgid "Необходимо указать номер кошелька для приема платежей"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:111
+msgid "Заголовок блока"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:112
+msgid "Ввеите текст заголовка"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:115
+msgid "Получатель переводов"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:117
+msgid "Номер кошелька в сервисе Янденкс.Деньги"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:121
+msgid ""
+"Необходимо указать номер Вашего кошелька в сервисе Яндекс Деньги на который "
+"планируется получать платежи с сайта."
+msgstr ""
+
+#: inc/tmpl/settings-form.php:122
+msgid ""
+"<b>Обратите внимание</b>: если у вас анонимный кошелек, подойдет только "
+"кнопка с банковской картой. Как только баланс кошелька достигнет "
+"15 000 рублей, вы не сможете принимать новые переводы. <a target=\"_blank\" "
+"href=\"https://money.yandex.ru/security/identification\">Проверить статус</a>"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:126
+msgid "Принимаемые типы платежей"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:130
+msgid "Платежи с карт Visa и MasterCard"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:136
+msgid "Платежи со счета мобильного телефона"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:141
+msgid "Сумма по умолчанию"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:146
+msgid "Не советую указывать сумму, если конечно речь идет о пожертвованиях"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:150
+msgid "Текст на кнопке"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:159
+msgid "Комментарий плательщика"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:162
+msgid "Очень нужен"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:165
+msgid "Подсказка к полю"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:168
+msgid ""
+"Этот текст будет отображен в качестве подсказки к полю для ввода "
+"комментария, где пользователь может добавить текст любого содержания"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:172
+msgid "Какие данные запрашивать"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:176
+msgid "Фамилия имя отчество"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:182
+msgid "Адресс электронной почты"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:188
+msgid "Номер мобильного телефона"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:194
+msgid "Адрес доставки"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:198
+msgid ""
+"Данная информация будет запрошена после того, как пользователь нажмет кнопку "
+"и перейдет к оплате на страницу Яндекса. %s"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:198
+msgid ""
+"Эта информация будет передана вместе с уведомлением о платеже на сайт, а так "
+"же будет отображатся на странице «<a href=\"https://money.yandex.ru/actions"
+"\" target=\"_blank\">Мои операции</a>» Вашего кошелька в системе Яндекс."
+"Деньги."
+msgstr ""
+
+#: inc/tmpl/settings-form.php:198
+msgid ""
+"Поскольку на Вашем сайте отсутствует HTTPS, то данная информация, являющаяся "
+"персональной, не будет передаваться Яндексом в уведомлении о платеже, в "
+"уведомлении будет передаваться техническая информация."
+msgstr ""
+
+#: inc/tmpl/settings-form.php:202
+msgid "Адрес для редиректа"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:207
+msgid "Пользователь попадет на указанную страницу по завершению оплаты"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:212 inc/tmpl/settings-views.php:204
+msgid "Сохранить изменения"
+msgstr ""
+
+#: inc/tmpl/settings-form.php:218 inc/tmpl/settings-views.php:217
+msgid "Виджет"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:8
+msgid "Настройки показа попрошайки"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:29
+msgid ""
+"Обратите внимание что для показа блока необходимо выбрать хотя бы один пункт "
+"иначе блок не будет показываться"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:55
+msgid ""
+"Необходимо указать секретное слово, в противном случае уведомления не будут "
+"приниматься системой"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:73
+msgid "Ширина должна указываться исключительно цифрами"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:79
+msgid "Необходимо указать ширину блока"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:92
+msgid "Высота должна указываться исключительно цифрами"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:98
+msgid "Необходимо указать высоту блока"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:141
+msgid "Где показывать?"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:145
+msgid "В записях в блоге"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:151
+msgid "На страницах"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:157
+msgid "Размеры блока формы"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:159
+msgid "Ширина"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:161
+msgid "Высота"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:166
+msgid ""
+"Редактировать эти парметры есть смысл если форма не помещается в границы "
+"iframe"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:170
+msgid "Получение и обработка уведомлений о платежах"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:174
+msgid "Принимать уведомления о платежах"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:178
+msgid ""
+"При выборе этой опции сайт будет принимать уведомлениия о платежах и "
+"сохранять их в базе данных сайта. Для приема уведомлений о платежах "
+"необходимо настроить уведомления на странице в <a href=\"https://money."
+"yandex.ru/myservices/online.xml\" target=\"_blank\">личном кабинете</a>. В "
+"качестве адреса для приема уведомлений укажите %s "
+msgstr ""
+
+#: inc/tmpl/settings-views.php:182
+msgid "Секретное слово"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:185
+msgid "Секретное слово, которое Вы указали при настройке приема уведомлений"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:191
+msgid "Помощь в продвижении плагина"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:195
+msgid "Помочь в продвижении плагина"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:199
+msgid ""
+"Под блоком будет отображаться ссылка на плагин и люди увидев у вас этот "
+"плагин смогут установить его себе"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:210
+msgid "Шорт-код"
+msgstr ""
+
+#: inc/tmpl/settings-views.php:215
+msgid ""
+"Вставьте этот шорткод в текст в любом месте сайта для отображения формы "
+"приема платежей."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Scrounger Lite"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.dampi.ru/sobiraem-pozhertvovaniya-s-plaginom-poproshayka-dlya-"
+"wordpress"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Добавляет форму для сбора денежных средств на сайте с помощью перевода на "
+"Яндекс.Деньги"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Денис Бидюков"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.dampi.ru/"
+msgstr ""
